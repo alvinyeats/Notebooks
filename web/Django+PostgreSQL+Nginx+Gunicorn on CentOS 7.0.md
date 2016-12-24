@@ -55,7 +55,9 @@
 
 #### pip设置
 
-vim /etc/pip.conf
+```shell    
+    vim /etc/pip.conf
+```
 
 ```conf
     [global]
