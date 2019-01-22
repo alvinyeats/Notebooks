@@ -28,3 +28,20 @@ CREATE DATABASE yourdb OWNER username;
 GRANT ALL PRIVILEGES ON DATABASE yourdb to username;
 \q
 ```
+
+## 连接数据库
+```sh
+# 连接本地数据库
+psql -U username -d yourdb
+# 连接远程数据库
+psql -h 192.168.1.1 -U username -d yourdb
+```
+
+## 数据库导入导出
+```sh
+# 导出
+pg_dump -U username yourdb > yourdb.sql
+# 导入
+psql -U username yourdb < yourdb.sql
+```
+
