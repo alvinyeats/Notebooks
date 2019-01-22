@@ -20,9 +20,11 @@ sudo systemctl enable postgresql
 ```
 
 ## 创建用户、数据库，赋予权限
+```sh
 sudo su - postgres
 psql
 CREATE USER username WITH PASSWORD 'password';
 CREATE DATABASE yourdb OWNER username;
 GRANT ALL PRIVILEGES ON DATABASE yourdb to username;
 \q
+```
