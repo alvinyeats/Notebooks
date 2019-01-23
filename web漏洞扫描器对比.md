@@ -16,8 +16,8 @@
 
 ### 默认账号
 
-awvs: 安装过程中注册
-webvulscan: 安装完毕后，在web页面进行注册
+awvs: 安装过程中注册   
+webvulscan: 安装完毕后，在web页面进行注册  
 
 Arachni
 ```code
