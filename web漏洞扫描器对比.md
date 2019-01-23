@@ -14,6 +14,23 @@
 - Arachni: 下载源码，进入bin目录，执行<code>.\arachni_web.bat</code>，访问  http://localhost:9292
 - appscan: 进行中
 
+### 默认账号
+
+awvs: 安装过程中注册
+webvulscan: 安装完毕后，在web页面进行注册
+
+Arachni
+```code
+Administrator account
+
+E-mail: admin@admin.admin
+Password: administrator
+
+Regular user account
+
+E-mail: user@user.user
+Password: regular_user
+```
 
 ## 注意事项
 
